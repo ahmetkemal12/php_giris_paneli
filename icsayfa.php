@@ -1,0 +1,3 @@
+<?php 
+// PANEL İÇ SAYFA
+?>
