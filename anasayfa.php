@@ -3,7 +3,7 @@
 session_start();
 
 if($_COOKIE["giris"] != sha1(md5("ibb")) || $_SESSION["kontrol"] != sha1(md5("ismek")) ) {
-    header("Location: index.html");
+    header("Location: cikis.php");
     die("Yetkisiz Giris!");
 }
 ?>
