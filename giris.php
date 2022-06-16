@@ -16,7 +16,7 @@
    //if($username =="admin" && $userpassword=="1234"){
     
 
-    if(in_array($username,$kullanicilar) && $userpassword="1234"){
+    if(in_array($username,$kullanicilar) && $userpassword=="1234"){
 
     $kontrol = sha1(md5("ibb"));//kısmi güvenlik için bir veri şifrelendi
 
